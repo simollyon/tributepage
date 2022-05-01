@@ -11,4 +11,26 @@ body {
     text-align:center;
     padding-right:100px;
 }
-
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e25b81ac;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  li:hover {
+    background-color: #e25b81;
+  }
